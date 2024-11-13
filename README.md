@@ -14,13 +14,13 @@ This is a simple Windows keylogger implemented with Windows API in C++ (client) 
 
 ## Usage
 1. Modify the IP Address
-    Update the `x.x.x.x` IP address in both the C++ and Python files:
+    - Update the `x.x.x.x` IP address in both the C++ and Python files:
 
 2. Start the Flask Server
-    Run the Python file to start the Flask server, which will listen for incoming keystroke data.
+    - Run the Python file to start the Flask server, which will listen for incoming keystroke data.
 
 3. Start the Client
-    After starting the server, run the C++ client. As you type, keystrokes will be sent and logged in real-time on the Flask server.
+    - After starting the server, run the C++ client. As you type, keystrokes will be sent and logged in real-time on the Flask server.
 
 4. Enable Temp and/or registry persistence (optional)
     - Specify `--persistence` argument to save the executable to temp and add it to registry to start on boot.
